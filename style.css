@@ -1,0 +1,227 @@
+#header {
+  padding: 40px 0px;
+}
+#header .left {
+  height: 34px;
+  width: 258px;
+}
+#header .left img {
+  height: 100%;
+  width: 100%;
+}
+#header .right ul {
+  line-height: 30px;
+  float: right;
+}
+#header .right ul li {
+  float: left;
+  list-style: none;
+  margin-right: 50px;
+}
+#header .right ul li span i {
+  margin-left: 10px;
+}
+#header .right ul li:first-child {
+  color: green;
+}
+
+#slider {
+  background-image: url("img/2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+#slider .yazilar {
+  padding: 120px 0px;
+}
+#slider .yazilar p {
+  margin-top: 50px;
+}
+#slider .yazilar .knopkalar {
+  padding-top: 70px;
+}
+#slider .yazilar .knopkalar div {
+  display: inline-block;
+  background: red;
+  padding: 15px 50px;
+  border-radius: 30px;
+}
+#slider .yazilar .knopkalar div p {
+  margin-top: 10px;
+}
+#slider .yazilar .knopkalar div:nth-child(2) {
+  margin-left: 50px;
+}
+
+#events {
+  padding: 90px 60px;
+}
+#events .xet:before {
+  content: "";
+  position: absolute;
+  top: 35px;
+  left: 40px;
+  width: 40px;
+  height: 4px;
+  background: #393a3c;
+}
+#events .xet {
+  margin-bottom: 70px;
+  padding: 0px 70px;
+}
+
+.boxes {
+  padding: 0px 50px;
+}
+.boxes .vae {
+  background: grey;
+  margin-top: 150px;
+  color: white;
+  border-radius: 70px;
+}
+.boxes .vae p {
+  padding: 25px;
+  text-align: center;
+}
+.boxes .arrows {
+  position: relative;
+}
+.boxes .arrows i {
+  position: absolute;
+}
+
+#people {
+  padding: 50px;
+}
+#people .right {
+  position: relative;
+  padding: 0px 20px;
+}
+#people .right .foto1 {
+  height: 317px;
+  width: 400px;
+  position: absolute;
+  z-index: 2;
+}
+#people .right .foto1 img {
+  height: 100%;
+  width: 100%;
+}
+#people .foto2 {
+  height: 317px;
+  width: 400px;
+  position: absolute;
+  left: -41px;
+  top: -50px;
+}
+#people .foto2 img {
+  height: 100%;
+  width: 100%;
+}
+#people .xet {
+  padding: 40px;
+}
+#people .xet:before {
+  content: "";
+  position: absolute;
+  top: 75px;
+  left: 10px;
+  width: 40px;
+  height: 4px;
+  background: #393a3c;
+}
+#people .qiz {
+  height: 160px;
+  width: 160px;
+  float: left;
+}
+#people .qiz p {
+  font-size: 15px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+#people .qiz img {
+  height: 100%;
+  width: 100%;
+}
+#people p {
+  float: left;
+  margin-left: 50px;
+  font-size: 26px;
+}
+#people .quote {
+  font-size: 40px;
+}
+#people .quote i {
+  margin-left: 50px;
+}
+#people .long {
+  position: relative;
+}
+#people .long i {
+  font-size: 40px;
+  position: absolute;
+}
+#people .long i:last-child {
+  top: 90px;
+}
+
+#services {
+  padding: 60px;
+}
+#services .left2 {
+  position: relative;
+}
+#services .left2 .foto3 {
+  width: 570px;
+  position: absolute;
+  height: 420px;
+}
+#services .left2 .foto3 img {
+  height: 100%;
+  width: 100%;
+}
+#services .left2 .foto4 {
+  width: 420px;
+  position: absolute;
+  height: 350px;
+  top: 350px;
+  left: 150px;
+}
+#services .left2 .foto4 img {
+  height: 100%;
+  width: 100%;
+}
+#services .right2 .xet:before {
+  content: "";
+  position: absolute;
+  top: 115px;
+  left: 10px;
+  width: 40px;
+  height: 4px;
+  background: #393a3c;
+}
+#services .right2 .xet {
+  padding-top: 80px;
+  padding-left: 50px;
+}
+#services .vae {
+  background: grey;
+  margin-top: 150px;
+  color: white;
+  border-radius: 70px;
+}
+#services .vae p {
+  padding: 25px;
+  text-align: center;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}

@@ -1,0 +1,31 @@
+#slider{
+	background-image: url("img/2.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: white;
+	
+	.yazilar{
+		padding: 120px 0px;
+		p{
+			margin-top: 50px;
+		}
+		.knopkalar{
+			padding-top: 70px;
+
+			div{
+				display: inline-block;
+				background: red;
+				padding: 15px 50px;
+				border-radius: 30px;
+				p{
+					margin-top: 10px;
+				}
+
+			}
+			div:nth-child(2){
+				margin-left: 50px;
+			}
+		}
+	  }
+}

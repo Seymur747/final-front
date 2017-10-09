@@ -1,0 +1,64 @@
+#services{
+
+	padding: 60px;
+	
+	.left2{
+		position: relative;
+		.foto3{
+			width: 570px;
+			position: absolute;
+			height: 420px;
+			
+			img{
+				height: 100%;
+				width: 100%
+			}
+		}
+		.foto4{
+			width: 420px;
+			position: absolute;
+			height: 350px;
+			top: 350px;
+			left: 150px;
+		
+			img{
+				height: 100%;
+				width: 100%
+			}
+		}
+
+	}
+
+
+	.right2{
+				.xet:before{
+		content: "";
+	    position: absolute;
+	    top: 115px;
+	    left: 10px;
+	    width: 40px;
+	    height: 4px;
+	    background: #393a3c;
+		
+		}
+		.xet{
+			padding-top: 80px;
+			padding-left: 50px;
+
+		}
+	}
+
+.vae{
+	
+	background: grey;
+	margin-top: 150px;
+	color: white;
+	border-radius: 70px;
+	p{
+		padding: 25px;
+		text-align: center;
+
+	}}
+
+
+}	

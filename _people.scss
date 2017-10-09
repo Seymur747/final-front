@@ -1,0 +1,86 @@
+#people{
+		padding: 50px;
+		.right{
+			position: relative;
+			padding: 0px 20px;
+			.foto1{
+				height: 317px;
+				width: 400px;
+				position: absolute;
+				z-index: 2;
+				img{
+					height: 100%;
+					width: 100%;
+				}
+			
+			}
+		}
+		.foto2{
+
+				height: 317px;
+				width: 400px;
+				position: absolute;
+				left: -41px;
+				top: -50px;
+				img{
+					height: 100%;
+					width: 100%;
+				}
+		}
+	
+
+
+	.xet{
+		padding: 40px;
+	}
+	.xet:before{
+	content: "";
+    position: absolute;
+    top: 75px;
+    left: 10px;
+    width: 40px;
+    height: 4px;
+    background: #393a3c;
+	
+	}
+	.qiz{
+		height: 160px;
+		width: 160px;
+		float: left;
+		p{
+			font-size: 15px;
+			margin-top: 15px;
+			margin-left: 20px;
+		}
+		img{
+			height: 100%;
+			width: 100%;
+		
+		}
+	}p{
+		float: left;
+		margin-left: 50px;
+		font-size: 26px;
+	
+	}
+	.quote{
+		font-size: 40px;
+	i{
+			margin-left: 50px;
+	}
+	
+	}
+	.long{
+position: relative;
+		i{
+			font-size: 40px;
+			position: absolute;
+		}
+		i:last-child{
+			top: 90px;
+		}
+	
+
+}
+
+}
