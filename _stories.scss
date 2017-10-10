@@ -1,0 +1,80 @@
+#stories{
+	background: #F4F6F9;
+	padding: 100px 20px;
+
+}
+.achieve >p{
+	text-align: center;
+	padding: 0px 50px;
+	margin-right: 70px;
+}
+.acs {
+   padding: 20px 20px 60px 20px;
+  
+}
+.ms{
+	height: 70px;
+	width: 180px;
+	background: blue;
+	margin-left: 40px;
+	border-radius: 40px;
+}
+.ms p{
+	text-align: center;
+padding-top: 25px;
+}
+#blog{
+	background: green;
+	padding: 90px  50px;
+}
+.photoblog{
+	width: 407px;
+	height: 260px;
+	background: pink;
+}
+.photoblog img{
+	height: 100%;
+	width: 100%;
+}
+.xirda ul{
+	float: left;
+	padding-left: 0px;
+	padding-bottom: 20px;
+}
+.xirda ul li{
+	float: left;
+	padding-right: 20px;
+	list-style: none;
+}
+.post:before{
+    content: "";
+    position: absolute;
+    top: 35px;
+    left: 10px;
+    width: 40px;
+    height: 4px;
+    background: #393A3C none repeat scroll 0% 0%;
+}
+.post{
+	padding-left: 40px;
+	padding-bottom: 50px;
+}
+.qutu h1{
+	font-size: 21px;
+
+}
+.vabp {
+background: orange;
+height: 70px;
+width:300px;
+margin-top: 80px;
+border-radius:40px;
+}
+.vabp p{
+	padding-top: 25px;
+	text-align: center;
+
+}
+.map{
+	background: darkred;
+}

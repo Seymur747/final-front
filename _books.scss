@@ -1,0 +1,123 @@
+#books{
+
+ 	background-image:  url(img/n.jpg);
+ 	background-repeat:no-repeat;
+ 	background-position: center;
+ 	background-size: cover;
+ 	padding: 70px 40px;
+ 	color: white;
+ }
+.book{
+	height: 260px;
+	width: 201px;
+	p{
+		color: #E0AD40;
+	}
+}
+
+.book img{
+	height: 100%;
+	width: 100%;
+}
+.kitablar:before {
+    content: "";
+    position: absolute;
+    top: 35px;
+    left: 10px;
+    width: 40px;
+    height: 4px;
+    background: #393A3C none repeat scroll 0% 0%;
+}
+.kitablar h1{
+padding-left: 40px;
+padding-bottom : 80px;
+}
+.uzun{
+	background: #15AECF;
+	position: relative;
+	bottom: 130px;
+}
+.line{
+	height: 3px;
+	width: 60px;
+	background: white;
+	margin-bottom: 30px;
+	margin-left: 20px;
+}
+.uzun h1{
+	padding: 20px;
+	font-size: 30px;
+	
+
+}
+.uzun p{
+
+	padding: 0px 25px;
+
+}
+.learn{
+height: 70px;
+width: 220px;
+	background: transparent;
+	margin-left: 20px;
+	border-radius: 50px;
+	padding-bottom: 20px;
+	border: 2px solid white;
+
+}
+.learn p{
+	padding-top: 27px;
+	text-align: center;
+}
+.fotoust{
+	width: 370px;
+	height: 300px;
+	margin-bottom: 35px;
+
+}
+.fotoust img{ 
+	height: 100%;
+	width: 100%;
+
+}
+.fotoalt{
+	width: 382px;
+	height: 382px;
+
+	
+}
+.fotoalt img{
+		height: 100%;
+	width: 100%;
+}
+.minifoto{
+	height: 170px;
+	width: 170px;
+	position: relative;
+
+	margin-bottom: 40px;
+
+}
+.minifoto p{
+	position: absolute;
+right: -90px;
+top: 50px;
+
+}
+.minifoto span{
+	position: absolute;
+right: -80px;
+top: 80px;
+
+}
+.minifoto span{
+	position: absolute;
+right: -100px;
+top: 80px;
+
+}
+
+.minifoto img{
+	height: 100%;
+	width: 100%;
+}

@@ -1,6 +1,7 @@
 #events{
 
 padding: 90px 60px ;
+	background: #F4F6F9;
 	.xet:before{
 		    content: "";
 	    position: absolute;
@@ -16,14 +17,22 @@ padding: 90px 60px ;
 	}
 }.boxes{
 	padding: 0px 50px;
+	h1{
+		color: #15AECF;
+	}
+	p{
+		
+	}
 
 .vae{
 	
-	background: grey;
+	background: #F9AD40;
 	margin-top: 150px;
+	color: white;
 	color: white;
 	border-radius: 70px;
 	p{
+		color: #C2C3C4;
 		padding: 25px;
 		text-align: center;
 

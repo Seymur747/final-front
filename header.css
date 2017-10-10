@@ -1,0 +1,21 @@
+#header {
+  padding: 40px 0px; }
+  #header .left {
+    height: 34px;
+    width: 258px; }
+    #header .left img {
+      height: 100%;
+      width: 100%; }
+  #header .right ul {
+    line-height: 30px;
+    float: right; }
+    #header .right ul li {
+      float: left;
+      list-style: none;
+      margin-right: 50px; }
+      #header .right ul li span i {
+        margin-left: 10px; }
+    #header .right ul li:first-child {
+      color: green; }
+
+/*# sourceMappingURL=header.css.map */
